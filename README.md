@@ -1,34 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="Urna" title="Urna" src="./src/assets/tela1.PNG" />
+</h1>
+<p align="center">
+  <img alt="Urna" src="./src/assets/images/logo.svg" width="40%">
+</p>
 
-## Getting Started
+<br>
 
-First, run the development server:
+<p align="center">
+  <a href="./LICENSE">
+  <img src="https://img.shields.io/github/license/Gabriel9Stresser/urna-eletronica"/>
+  </a>
+  <img alt="" src="https://img.shields.io/github/repo-size/Gabriel9Stresser/urna-eletronica" />
+  <img alt="Standard - JavaScript Style Guide" src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg" />
+  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Gabriel9Stresser/urna-eletronica" />
+  <img alt="Github Star" src="https://img.shields.io/github/stars/Gabriel9Stresser/urna-eletronica?style=social" />
+  <img alt="Github Forks" src="https://img.shields.io/github/forks/Gabriel9Stresser/urna-eletronica?style=social" />
+</p>
 
+
+<br>
+
+
+<br>
+
+## 🎥 Showcase
+
+<p align="center">
+  <img width=700 alt="Tela 1" src="./src/assets/tela1.PNG">
+  <img width=700 alt="Tela 2" src="./src/assets/tela2.PNG">
+  <img width=700 alt="Tela 3" src="./src/assets/tela3.PNG">
+  <img width=700 alt="Tela 4" src="./src/assets/tela4.PNG">
+  <img width=700 alt="Tela 5" src="./src/assets/tela5.PNG">
+</p>
+
+<br>
+
+## ⚙ Technologies
+
+This project was developed using the following technologies:
+
+
+[<img alt="SASS" src="https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white"/>](https://sass-lang.com/)
+
+[<img alt="Next" src="https://img.shields.io/badge/next%20js%20-%23000000.svg?&style=for-the-badge&logo=next.js&logoColor=white">](https://nextjs.org/)
+
+[<img alt="ReactJs" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&  logoColor=%2361DAFB">](https://reactjs.org)
+
+[<img alt="Jest" src="https://img.shields.io/badge/jest%20-%23007ACC.svg?&style=for-the-badge&logo=jest&logoColor=white">](https://www.jest.oi/)
+
+[<img alt="Styled Components" src="https://img.shields.io/badge/styledcomponents%20-%23007ACC.svg?&style=for-the-badge&logo=styledcomponents&logoColor=white">](https://styled-components.com/)
+
+[<img alt="Typescript" src="https://img.shields.io/badge/typescript%20js%20-%23000000.svg?&style=for-the-badge&logo=typescript.js&logoColor=white">](https://www.typescriptlang.org/)
+
+[<img alt="Supabase" src="https://img.shields.io/badge/supabase%20js%20-%23000000.svg?&style=for-the-badge&logo=supabase.js&logoColor=white">](https://www.typescriptlang.org/)
+
+[<img alt="Supabase" src="https://img.shields.io/badge/supabase%20js%20-%23000000.svg?&style=for-the-badge&logo=supabase.js&logoColor=white">](https://www.typescriptlang.org/)
+
+
+  
+
+
+<br>
+
+
+## 🚀 Getting started
+
+
+Follow the steps below 📝
 ```bash
-npm run dev
-# or
-yarn dev
+# Install the dependencies
+$ yarn
+
+# Start the project
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available for access on your browser at http://localhost:3000
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 📱 Contact
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Contact me by email or LinkedIn:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<a href="mailto:gabriel.augusto99@hotmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 
-## Learn More
+<a href="https://www.linkedin.com/in/gabriel-augusto-soler-stresser-366719100/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">Made with 💜 by Gabriel Stresser</p>
