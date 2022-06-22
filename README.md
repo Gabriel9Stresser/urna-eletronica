@@ -1,9 +1,6 @@
 <h1 align="center">
     <img alt="Urna" title="Urna" src="./assets/tela1.png" />
 </h1>
-<p align="center">
-  <img alt="Urna" src="./assets/images/logo.svg" width="40%">
-</p>
 
 <br>
 
