@@ -9,14 +9,9 @@ import {
 	D2Styled,
 } from '../../styles/index';
 
-interface Login {
-	digit1: string;
-	digit2: string;
-	digit3: string;
-	digit4: string;
-}
+import { DigitsI } from '../../types/global';
 
-export default function Login({ digit1, digit2, digit3, digit4 }: Login) {
+export default function Login({ digit1, digit2, digit3, digit4 }: DigitsI) {
 	return (
 		<>
 			<D1Styled>

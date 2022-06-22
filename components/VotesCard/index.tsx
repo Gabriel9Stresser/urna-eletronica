@@ -1,10 +1,6 @@
 import React from 'react';
 import { Container, Title, Text } from './style';
-
-interface CardProps {
-	title: string;
-	votes: string;
-}
+import { CardProps } from '../../types/global';
 
 export const VotesCard = ({ title, votes }: CardProps) => {
 	return (

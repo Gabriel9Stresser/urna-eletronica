@@ -7,7 +7,7 @@ export const MainStyled = styled.div`
 	height: 100%;
 `;
 
-export const TelaStyled = styled.div`
+export const ScreenStyled = styled.div`
 	width: 500px;
 	height: 320px;
 	background: linear-gradient(to right, #e8e8e8, #c1c1c1);
@@ -16,12 +16,12 @@ export const TelaStyled = styled.div`
 	flex-direction: column;
 `;
 
-export const TecladoStyled = styled.div`
+export const BoardStyled = styled.div`
 	background-color: #403a3a;
 	margin-left: 30px;
 `;
 
-export const TecladoLinhaStyled = styled.div`
+export const LineStyled = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
@@ -41,7 +41,7 @@ export const ButtonStyled = styled.button`
 	box-shadow: 3px 3px 0px #555;
 `;
 
-export const ButtonTecladoStyled = styled.button`
+export const ButtonBoardStyled = styled.button`
 	width: 80px;
 	height: 40px;
 	background-color: #000;

@@ -20,14 +20,9 @@ import {
 	D1IMGStyled,
 } from '../../styles/index';
 
-interface Login {
-	digit1: string;
-	digit2: string;
-	digit3: string;
-	digit4: string;
-}
+import { DigitsI } from '../../types/global';
 
-export default function Food({ digit1, digit2, digit3, digit4 }: Login) {
+export default function Food({ digit1, digit2, digit3, digit4 }: DigitsI) {
 	const [name, setName] = useState('');
 	const [desc, setDesc] = useState('');
 	const [img, setImg] = useState('');

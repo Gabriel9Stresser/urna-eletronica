@@ -8,11 +8,11 @@ import Finish from '../components/Finish';
 import Votes from '../components/Votes/Votes';
 import {
 	MainStyled,
-	TelaStyled,
-	TecladoLinhaStyled,
+	ScreenStyled,
+	LineStyled,
 	ButtonStyled,
-	TecladoStyled,
-	ButtonTecladoStyled,
+	BoardStyled,
+	ButtonBoardStyled,
 } from '../styles/index';
 import axios from 'axios';
 import Swal from 'sweetalert2';
@@ -75,30 +75,30 @@ export default function Index() {
 	const changeConfirmButton = () => {
 		if (user.name === undefined || user.name === null) {
 			return (
-				<ButtonTecladoStyled
+				<ButtonBoardStyled
 					style={{ backgroundColor: '#48c079' }}
 					onClick={() => login()}
 				>
 					CONFIRMA
-				</ButtonTecladoStyled>
+				</ButtonBoardStyled>
 			);
 		} else if (user.foodSelected === null) {
 			return (
-				<ButtonTecladoStyled
+				<ButtonBoardStyled
 					style={{ backgroundColor: '#48c079' }}
 					onClick={() => putFood()}
 				>
 					CONFIRMA
-				</ButtonTecladoStyled>
+				</ButtonBoardStyled>
 			);
 		} else if (user.drinkSelected === null) {
 			return (
-				<ButtonTecladoStyled
+				<ButtonBoardStyled
 					style={{ backgroundColor: '#48c079' }}
 					onClick={() => putDrink()}
 				>
 					CONFIRMA
-				</ButtonTecladoStyled>
+				</ButtonBoardStyled>
 			);
 		}
 	};
@@ -106,21 +106,21 @@ export default function Index() {
 	const changeNullButton = () => {
 		if (user.foodSelected === null) {
 			return (
-				<ButtonTecladoStyled
+				<ButtonBoardStyled
 					style={{ backgroundColor: '#FFF' }}
 					onClick={() => putFood(true)}
 				>
 					BRANCO
-				</ButtonTecladoStyled>
+				</ButtonBoardStyled>
 			);
 		} else if (user.drinkSelected === null) {
 			return (
-				<ButtonTecladoStyled
+				<ButtonBoardStyled
 					style={{ backgroundColor: '#FFF' }}
 					onClick={() => putDrink(true)}
 				>
 					BRANCO
-				</ButtonTecladoStyled>
+				</ButtonBoardStyled>
 			);
 		}
 	};
@@ -258,37 +258,37 @@ export default function Index() {
 
 	return (
 		<MainStyled>
-			<TelaStyled>{finish ? <Finish /> : pages[page]}</TelaStyled>
-			<TecladoStyled>
-				<TecladoLinhaStyled>
+			<ScreenStyled>{finish ? <Finish /> : pages[page]}</ScreenStyled>
+			<BoardStyled>
+				<LineStyled>
 					<ButtonStyled onClick={() => setNumber('1')}>1</ButtonStyled>
 					<ButtonStyled onClick={() => setNumber('2')}>2</ButtonStyled>
 					<ButtonStyled onClick={() => setNumber('3')}>3</ButtonStyled>
-				</TecladoLinhaStyled>
-				<TecladoLinhaStyled>
+				</LineStyled>
+				<LineStyled>
 					<ButtonStyled onClick={() => setNumber('4')}>4</ButtonStyled>
 					<ButtonStyled onClick={() => setNumber('5')}>5</ButtonStyled>
 					<ButtonStyled onClick={() => setNumber('6')}>6</ButtonStyled>
-				</TecladoLinhaStyled>
-				<TecladoLinhaStyled>
+				</LineStyled>
+				<LineStyled>
 					<ButtonStyled onClick={() => setNumber('7')}>7</ButtonStyled>
 					<ButtonStyled onClick={() => setNumber('8')}>8</ButtonStyled>
 					<ButtonStyled onClick={() => setNumber('9')}>9</ButtonStyled>
-				</TecladoLinhaStyled>
-				<TecladoLinhaStyled>
+				</LineStyled>
+				<LineStyled>
 					<ButtonStyled onClick={() => setNumber('0')}>0</ButtonStyled>
-				</TecladoLinhaStyled>
-				<TecladoLinhaStyled>
+				</LineStyled>
+				<LineStyled>
 					{changeNullButton()}
-					<ButtonTecladoStyled
+					<ButtonBoardStyled
 						style={{ backgroundColor: '#f09046' }}
 						onClick={() => removeNumber()}
 					>
 						CORRIGE
-					</ButtonTecladoStyled>
+					</ButtonBoardStyled>
 					{changeConfirmButton()}
-				</TecladoLinhaStyled>
-			</TecladoStyled>
+				</LineStyled>
+			</BoardStyled>
 		</MainStyled>
 	);
 }

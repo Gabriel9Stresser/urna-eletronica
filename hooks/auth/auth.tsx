@@ -1,22 +1,6 @@
-import {
-	createContext,
-	ReactNode,
-	useState,
-	useContext,
-	useEffect,
-} from 'react';
+import { createContext, useState, useContext, useEffect } from 'react';
 
-import { User } from '../../Types';
-
-interface AuthProviderProps {
-	children: ReactNode;
-}
-
-interface IAuthContextData {
-	user: User;
-	setData: (response?: User) => void;
-	removeData: () => void;
-}
+import { User, AuthProviderProps, IAuthContextData } from '../../types/global';
 
 const AuthContext = createContext({} as IAuthContextData);
 
