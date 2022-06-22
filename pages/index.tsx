@@ -73,7 +73,6 @@ export default function Index() {
 	};
 
 	const changeConfirmButton = () => {
-		console.log(user.name);
 		if (user.name === undefined || user.name === null) {
 			return (
 				<ButtonTecladoStyled
