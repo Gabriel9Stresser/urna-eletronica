@@ -1,8 +1,8 @@
 <h1 align="center">
-    <img alt="Urna" title="Urna" src="./src/assets/tela1.PNG" />
+    <img alt="Urna" title="Urna" src="./assets/tela1.png" />
 </h1>
 <p align="center">
-  <img alt="Urna" src="./src/assets/images/logo.svg" width="40%">
+  <img alt="Urna" src="./assets/images/logo.svg" width="40%">
 </p>
 
 <br>
@@ -27,11 +27,11 @@
 ## 🎥 Showcase
 
 <p align="center">
-  <img width=700 alt="Tela 1" src="./src/assets/tela1.PNG">
-  <img width=700 alt="Tela 2" src="./src/assets/tela2.PNG">
-  <img width=700 alt="Tela 3" src="./src/assets/tela3.PNG">
-  <img width=700 alt="Tela 4" src="./src/assets/tela4.PNG">
-  <img width=700 alt="Tela 5" src="./src/assets/tela5.PNG">
+  <img width=700 alt="Tela 1" src="./assets/tela1.png">
+  <img width=700 alt="Tela 2" src="./assets/tela2.png">
+  <img width=700 alt="Tela 3" src="./assets/tela3.png">
+  <img width=700 alt="Tela 4" src="./assets/tela4.png">
+  <img width=700 alt="Tela 5" src="./assets/tela5.png">
 </p>
 
 <br>
@@ -51,11 +51,9 @@ This project was developed using the following technologies:
 
 [<img alt="Styled Components" src="https://img.shields.io/badge/styledcomponents%20-%23007ACC.svg?&style=for-the-badge&logo=styledcomponents&logoColor=white">](https://styled-components.com/)
 
-[<img alt="Typescript" src="https://img.shields.io/badge/typescript%20js%20-%23000000.svg?&style=for-the-badge&logo=typescript.js&logoColor=white">](https://www.typescriptlang.org/)
+[<img alt="Typescript" src="https://img.shields.io/badge/typescript%20js%20-%23000000.svg?&style=for-the-badge&logo=typescript&logoColor=white">](https://www.typescriptlang.org/)
 
-[<img alt="Supabase" src="https://img.shields.io/badge/supabase%20js%20-%23000000.svg?&style=for-the-badge&logo=supabase.js&logoColor=white">](https://www.typescriptlang.org/)
-
-[<img alt="Supabase" src="https://img.shields.io/badge/supabase%20js%20-%23000000.svg?&style=for-the-badge&logo=supabase.js&logoColor=white">](https://www.typescriptlang.org/)
+[<img alt="Supabase" src="https://img.shields.io/badge/supabase%20js%20-%23000000.svg?&style=for-the-badge&logo=supabase&logoColor=white">](https://www.typescriptlang.org/)
 
 
   
